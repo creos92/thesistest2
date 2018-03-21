@@ -1,0 +1,5 @@
+parloma_clienttest:
+  image: parloma:clienttest
+  stdin_open: true
+  tty: true
+  privileged: true

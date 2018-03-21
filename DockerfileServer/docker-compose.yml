@@ -1,0 +1,9 @@
+parloma_servertest:
+  image: parloma:servertest
+  stdin_open: true
+  tty: true
+  privileged: true
+  volumes:
+    - ~/speedtest:/data
+  ports:
+    - 1194:1194
